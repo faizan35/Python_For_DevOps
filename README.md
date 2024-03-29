@@ -4,7 +4,7 @@ Welcome to the "Learning Python for DevOps" repository! This repository is desig
 
 ## Table of Contents
 
-1. [Introduction to Python and DevOps](#module-1-introduction-to-python-and-devops)
+1. [Introduction to Python and DevOps](./module-1/1-introduction-to-python.md)
 
    - [Overview of Python](#overview-of-python)
    - [Understanding the role of Python in DevOps](#understanding-the-role-of-python-in-devops)
@@ -83,6 +83,8 @@ Welcome to the "Learning Python for DevOps" repository! This repository is desig
 
 12. [Capstone Project](#module-12-capstone-project)
     - [Design and implement a DevOps automation solution](#project-design-and-implement-a-devops-automation-solution)
+
+---
 
 ## How to Use This Repository
 
