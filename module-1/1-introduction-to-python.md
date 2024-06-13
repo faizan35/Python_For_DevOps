@@ -15,23 +15,42 @@
 
 #### For Windows:
 
-1.  **Install Python:**
+1. **Install Python**:
+   - Ensure Python is installed on your laptop. You can download the latest version from [python.org](https://www.python.org/downloads/).
+   - During installation, make sure to check the box that says "Add Python to PATH".
 
-    - Visit the [official Python website](https://www.python.org/).
-    - Download the latest version of Python for Windows.
-    - Run the installer and follow the installation instructions, ensuring you check the box that says "**Add Python to PATH**" during installation.
+2. **Open Command Prompt**:
+   - Open the Command Prompt by searching for `cmd` in the Start menu.
 
-2.  **Set Up a Virtual Environment:**
+3. **Install `virtualenv` (if not already installed)**:
+   - Run the following command to install `virtualenv`:
+     ```sh
+     pip install virtualenv
+     ```
 
-    - Open Command Prompt.
-    - Navigate to your project folder.
-    - Run the following commands:
+4. **Create a Virtual Environment**:
+   - Navigate to your project directory or create a new directory:
 
-      ```bash
-      python -m venv venv .\venv\Scripts\activate
-      ```
+   - Create a virtual environment by running:
+     ```sh
+     python -m venv myenv
+     ```
+     Here, `myenv` is the name of the virtual environment. You can name it whatever you like.
 
-    - **Virtual environment** helps keep your project's dependencies isolated, preventing conflicts and easy to manage and share your code.
+5. **Activate the Virtual Environment**:
+   - To activate the virtual environment, run:
+     ```sh
+     myenv\Scripts\activate
+     ```
+   - After activation, your command prompt will change to show the name of the virtual environment, indicating it is active.
+
+6. **Deactivate the Virtual Environment**:
+   - To deactivate the virtual environment, simply run:
+     ```sh
+     deactivate
+     ```
+
+- **Virtual environment** helps keep your project's dependencies isolated, preventing conflicts and easy to manage and share your code.
 
 #### For Linux and macOS:
 
