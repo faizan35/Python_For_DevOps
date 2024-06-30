@@ -4,85 +4,114 @@ Welcome to the "Learning Python for DevOps" repository! This repository is desig
 
 ## Table of Contents
 
-1. [Introduction to Python and DevOps](./module-1/1-introduction-to-python.md)
+### 0. [Introduction to Python and DevOps](./00-Module/0.1-introduction-to-python.md)
 
-   - [Overview of Python](#overview-of-python)
-   - [Understanding the role of Python in DevOps](#understanding-the-role-of-python-in-devops)
-   - [Setting up your Python environment](#setting-up-your-python-environment)
+- Overview of Python
+- Understanding the role of Python in DevOps
+- Setting up your Python environment
 
-2. [Python Basics](#module-2-python-basics)
+### [1. Python Basics](./01-Module/1.1-Python-Basics.md)
 
-   - [Variables, Data Types, and Operators](#variables-data-types-and-operators)
-   - [Control Flow (if statements, loops)](#control-flow-if-statements-loops)
-   - [Functions and Modules](#functions-and-modules)
-   - **Practical Exercises:**
-     - [Create a script that takes user input](#exercise-create-a-script-that-takes-user-input)
-     - [Implement a function to check for prime numbers](#exercise-implement-a-function-to-check-for-prime-numbers)
+- **Topics**:
 
-3. [Working with Files and Directories](#module-3-working-with-files-and-directories)
+  - Python syntax and semantics
+  - Data types, variables, and operators
+  - Control flow (if statements, loops)
+  - Functions and modules
 
-   - [Reading and writing files](#reading-and-writing-files)
-   - [Managing directories and file paths](#managing-directories-and-file-paths)
-   - **Practical Exercises:**
-     - [Write a script to modify a text file](#exercise-write-a-script-to-modify-a-text-file)
-     - [Organize files in a directory based on types](#exercise-organize-files-in-a-directory-based-on-types)
+- **Exercises**:
 
-4. [Data Structures in Python](#module-4-data-structures-in-python)
+  - Write a script to automate a simple task (e.g., renaming files in a directory)
+  - Create a module for common utility functions
 
-   - [Lists, dictionaries, and sets](#lists-dictionaries-and-sets)
-   - **Practical Exercises:**
-     - [Build a script using a dictionary](#exercise-build-a-script-using-a-dictionary)
-     - [Manipulate a list of numbers](#exercise-manipulate-a-list-of-numbers)
+### Week 2: Advanced Python Concepts
 
-5. [Automation](#module-5-automation)
+- **Topics**:
+  - File handling (reading/writing files)
+  - Error handling and exceptions
+  - Working with dates and times
+  - Regular expressions
+- **Exercises**:
+  - Develop a script to parse and process log files
+  - Write a script that extracts specific data from a text file using regular expressions
 
-   - [Understanding the need for automation in DevOps](#understanding-the-need-for-automation-in-devops)
-   - **Practical Exercises:**
-     - [Identify and automate a repetitive task](#exercise-identify-and-automate-a-repetitive-task)
-     - [Script to rename multiple files](#exercise-script-to-rename-multiple-files)
+### Week 3: Python and Cloud Services (AWS)
 
-6. [Working with APIs](#module-6-working-with-apis)
+- **Topics**:
+  - Introduction to Boto3 (AWS SDK for Python)
+  - Interacting with AWS services: S3, EC2, Lambda
+  - IAM roles and permissions
+- **Exercises**:
+  - Write a script to upload/download files from S3
+  - Automate the creation and termination of EC2 instances
+  - Deploy a simple Lambda function using Python
 
-   - [Basics of RESTful APIs](#basics-of-restful-apis)
-   - **Practical Exercises:**
-     - [Make API requests to a public API](#exercise-make-api-requests-to-a-public-api)
-     - [Develop a script to interact with a RESTful API](#exercise-develop-a-script-to-interact-with-a-restful-api)
+### Week 4: Python and Cloud Services (Azure and GCP)
 
-7. [Version Control with Git](#module-7-version-control-with-git)
+- **Topics**:
+  - Azure SDK for Python (Azure Storage, Azure VM, Azure Functions)
+  - Google Cloud SDK for Python (GCS, Compute Engine, Cloud Functions)
+- **Exercises**:
+  - Create scripts to manage storage in Azure and GCP
+  - Automate VM creation and deletion in both Azure and GCP
+  - Deploy Python-based serverless functions on Azure Functions and GCP Cloud Functions
 
-   - [Basics of Git](#basics-of-git)
-   - **Practical Exercises:**
-     - [Initialize a Git repository and make commits](#exercise-initialize-a-git-repository-and-make-commits)
-     - [Automate Git tasks with Python](#exercise-automate-git-tasks-with-python)
+### Week 5: Automation and Orchestration with Python
 
-8. [Configuration Management](#module-8-configuration-management)
+- **Topics**:
+  - Introduction to Infrastructure as Code (IaC)
+  - Using Python with Terraform
+  - Automating cloud infrastructure deployment
+- **Exercises**:
+  - Write Terraform scripts to deploy a simple cloud environment and automate them with Python
+  - Create a Python script to manage Terraform state and deployments
 
-   - [Introduction to Ansible](#introduction-to-ansible)
-   - **Practical Exercises:**
-     - [Write an Ansible playbook in Python](#exercise-write-an-ansible-playbook-in-python)
-     - [Extend the playbook to install and configure a software package](#exercise-extend-the-playbook-to-install-and-configure-a-software-package)
+### Week 6: Configuration Management with Python
 
-9. [Networking](#module-9-networking)
+- **Topics**:
+  - Introduction to Ansible
+  - Writing Ansible playbooks with Python
+  - Using Python for custom Ansible modules
+- **Exercises**:
+  - Automate the configuration of servers using Ansible playbooks
+  - Develop custom Ansible modules in Python for specific tasks
 
-   - **Practical Exercises:**
-     - [Build a Python script to check server connectivity](#exercise-build-a-python-script-to-check-server-connectivity)
-     - [Create a program to fetch information about network interfaces](#exercise-create-a-program-to-fetch-information-about-network-interfaces)
+### Week 7: Continuous Integration/Continuous Deployment (CI/CD)
 
-10. [Cloud Computing](#module-10-cloud-computing)
+- **Topics**:
+  - Introduction to CI/CD concepts
+  - Using Python with Jenkins, GitLab CI, or GitHub Actions
+  - Automating build and deployment pipelines
+- **Exercises**:
+  - Create a Python script to trigger CI/CD pipelines
+  - Automate testing and deployment of a sample application using a CI/CD tool
 
-    - [Basics of cloud computing](#basics-of-cloud-computing)
-    - **Practical Exercises:**
-      - [Interact with AWS using Boto3](#exercise-interact-with-aws-using-boto3)
-      - [Deploy a simple application to a cloud platform](#exercise-deploy-a-simple-application-to-a-cloud-platform)
+### Week 8: Monitoring and Logging with Python
 
-11. [Containerization](#module-11-containerization)
+- **Topics**:
+  - Integrating Python with monitoring tools (Prometheus, CloudWatch, Stackdriver)
+  - Collecting and analyzing logs with Python
+  - Setting up alerts and notifications
+- **Exercises**:
+  - Develop a script to monitor the health of cloud resources and send alerts
+  - Automate log collection and analysis from different cloud services
 
-    - **Practical Exercises:**
-      - [Build a Docker container for a Python application](#exercise-build-a-docker-container-for-a-python-application)
-      - [Automate Docker tasks with Python](#exercise-automate-docker-tasks-with-python)
+### Week 9: Advanced Scripting and Tool Development
 
-12. [Capstone Project](#module-12-capstone-project)
-    - [Design and implement a DevOps automation solution](#project-design-and-implement-a-devops-automation-solution)
+- **Topics**:
+  - Writing efficient and scalable Python code
+  - Best practices for Python in DevOps
+  - Packaging and distributing Python tools
+- **Exercises**:
+  - Optimize an existing Python script for performance
+  - Package a Python automation tool and distribute it as a library or executable
+
+### Week 10: Capstone Project
+
+- **Project**:
+  - Develop a comprehensive automation solution that integrates multiple cloud services and DevOps practices using Python. This could involve setting up an automated deployment pipeline, configuring cloud resources, monitoring and logging, and implementing a feedback loop for continuous improvement.
+
+Each week, make sure to document your scripts and solutions, explaining your approach and any challenges you faced. This documentation will be valuable for future reference and as part of your portfolio.
 
 ---
 
