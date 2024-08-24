@@ -4,153 +4,211 @@ Welcome to the "Learning Python for DevOps" repository! This repository is desig
 
 ## Table of Contents
 
-### 0. [Introduction to Python and DevOps](./00-Module/0.1-introduction-to-python.md)
+Here's a day-wise Python learning syllabus with daily exercises to help you get started:
 
-- Overview of Python
-- Understanding the role of Python in DevOps
-- Setting up your Python environment
+### **Week 1: Python Basics**
 
-Here's an expanded syllabus with additional topics and exercises for each week:
+#### **Day 1: Introduction to Python**
 
-### 1: Python Basics
-
-- **Topics**:
-
-  - Python syntax and semantics
-  - Data types, variables, and operators
-  - Control flow (if statements, loops)
-  - Functions and modules
-  - Basic input/output
-
+- **Topics**: What is Python? Installation, Python IDEs, Basic Syntax
 - **Exercises**:
+  1. Install Python and set up an IDE (VSCode, PyCharm, etc.).
+  2. Write a simple Python program to print "Hello, World!".
 
-  - [1.](./01-Module/01-automate-simple-task.py) Write a script to automate a simple task (e.g., renaming files in a directory)
-  - Create a module for common utility functions
-  - Develop a calculator application
-  - Write a script that takes user input and processes it
-  - Implement a basic number guessing game
+#### **Day 2: Variables and Data Types**
 
-### Week 2: Advanced Python Concepts
-
-- **Topics**:
-  - File handling (reading/writing files)
-  - Error handling and exceptions
-  - Working with dates and times
-  - Regular expressions
-  - Data structures (lists, dictionaries, sets, tuples)
+- **Topics**: Variables, Data Types (int, float, str, bool), Type Casting
 - **Exercises**:
-  - Develop a script to parse and process log files
-  - Write a script that extracts specific data from a text file using regular expressions
-  - Create a program to manage a personal contact list
-  - Implement a script to convert file formats (e.g., CSV to JSON)
-  - Develop a script to find and replace text in multiple files
+  1. Create variables of different data types.
+  2. Write a program to input two numbers from the user and display their sum.
 
-### Week 3: Python and Cloud Services (AWS)
+#### **Day 3: Basic Operators**
 
-- **Topics**:
-  - Introduction to Boto3 (AWS SDK for Python)
-  - Interacting with AWS services: S3, EC2, Lambda
-  - IAM roles and permissions
-  - AWS CloudFormation with Python
+- **Topics**: Arithmetic Operators, Assignment Operators, Comparison Operators, Logical Operators
 - **Exercises**:
-  - Write a script to upload/download files from S3
-  - Automate the creation and termination of EC2 instances
-  - Deploy a simple Lambda function using Python
-  - Create a CloudFormation stack using Boto3
-  - Develop a script to manage IAM users and roles
+  1. Write a program to calculate the area of a rectangle.
+  2. Create a program that takes two numbers and prints the result of all basic arithmetic operations.
 
-### Week 4: Python and Cloud Services (Azure and GCP)
+#### **Day 4: String Manipulations**
 
-- **Topics**:
-  - Azure SDK for Python (Azure Storage, Azure VM, Azure Functions)
-  - Google Cloud SDK for Python (GCS, Compute Engine, Cloud Functions)
-  - Azure Resource Manager (ARM) templates
-  - Google Cloud Deployment Manager
+- **Topics**: String Slicing, String Methods, String Formatting
 - **Exercises**:
-  - Create scripts to manage storage in Azure and GCP
-  - Automate VM creation and deletion in both Azure and GCP
-  - Deploy Python-based serverless functions on Azure Functions and GCP Cloud Functions
-  - Develop a script to manage Azure Resource Groups
-  - Write a script to deploy resources using Google Cloud Deployment Manager
+  1. Write a program to reverse a string.
+  2. Create a program that converts a given string to uppercase.
 
-### Week 5: Automation and Orchestration with Python
+#### **Day 5: Lists and Tuples**
 
-- **Topics**:
-  - Introduction to Infrastructure as Code (IaC)
-  - Using Python with Terraform
-  - Automating cloud infrastructure deployment
-  - Python scripting for Kubernetes (kubectl)
+- **Topics**: Lists, Tuples, Indexing, Slicing, List Methods, Tuple Methods
 - **Exercises**:
-  - Write Terraform scripts to deploy a simple cloud environment and automate them with Python
-  - Create a Python script to manage Terraform state and deployments
-  - Automate Kubernetes deployments with Python scripts
-  - Develop a script to scale Kubernetes clusters
-  - Write a Python script to perform rolling updates in Kubernetes
+  1. Create a list of 5 fruits and display them.
+  2. Write a program to find the largest number in a list.
 
-### Week 6: Configuration Management with Python
+#### **Day 6: Dictionaries and Sets**
 
-- **Topics**:
-  - Introduction to Ansible
-  - Writing Ansible playbooks with Python
-  - Using Python for custom Ansible modules
-  - Puppet and Chef basics with Python integration
+- **Topics**: Dictionaries, Sets, Dictionary Methods, Set Methods
 - **Exercises**:
-  - Automate the configuration of servers using Ansible playbooks
-  - Develop custom Ansible modules in Python for specific tasks
-  - Create a script to manage Puppet manifests
-  - Write a Python script to interact with Chef recipes
-  - Develop an Ansible playbook to configure a web server and database
+  1. Create a dictionary with 5 key-value pairs and print all the keys.
+  2. Write a program to find the intersection of two sets.
 
-### Week 7: Continuous Integration/Continuous Deployment (CI/CD)
+#### **Day 7: Review and Practice**
 
-- **Topics**:
-  - Introduction to CI/CD concepts
-  - Using Python with Jenkins, GitLab CI, or GitHub Actions
-  - Automating build and deployment pipelines
-  - Docker integration with Python
+- **Topics**: Review all topics covered in Week 1
 - **Exercises**:
-  - Create a Python script to trigger CI/CD pipelines
-  - Automate testing and deployment of a sample application using a CI/CD tool
-  - Write a script to build and push Docker images to a registry
-  - Develop a Python-based CI/CD pipeline for a microservices application
-  - Implement a script to manage Docker containers
+  1. Create a small program using lists, dictionaries, and string manipulations.
+  2. Complete any pending exercises from the week.
 
-### Week 8: Monitoring and Logging with Python
+### **Week 2: Control Structures and Functions**
 
-- **Topics**:
-  - Integrating Python with monitoring tools (Prometheus, CloudWatch, Stackdriver)
-  - Collecting and analyzing logs with Python
-  - Setting up alerts and notifications
-  - Log aggregation and visualization with ELK Stack
+#### **Day 8: Conditional Statements**
+
+- **Topics**: if, elif, else Statements
 - **Exercises**:
-  - Develop a script to monitor the health of cloud resources and send alerts
-  - Automate log collection and analysis from different cloud services
-  - Create a Python script to integrate with ELK Stack for log visualization
-  - Write a script to set up custom CloudWatch alarms
-  - Develop a script to generate and analyze performance metrics
+  1. Write a program to check if a number is positive, negative, or zero.
+  2. Create a program that takes a user's age and determines if they are a minor, an adult, or a senior citizen.
 
-### Week 9: Advanced Scripting and Tool Development
+#### **Day 9: Loops**
 
-- **Topics**:
-  - Writing efficient and scalable Python code
-  - Best practices for Python in DevOps
-  - Packaging and distributing Python tools
-  - Writing unit and integration tests for Python scripts
+- **Topics**: for Loop, while Loop, Loop Control Statements (break, continue, pass)
 - **Exercises**:
-  - Optimize an existing Python script for performance
-  - Package a Python automation tool and distribute it as a library or executable
-  - Write unit tests for a complex Python script
-  - Develop a script to manage dependencies and environment setup
-  - Create a Python-based CLI tool for DevOps tasks
+  1. Write a program to print the first 10 natural numbers using a for loop.
+  2. Create a program that calculates the factorial of a number using a while loop.
 
-### Week 10: Capstone Project
+#### **Day 10: Functions**
 
-- **Project**:
-  - Develop a comprehensive automation solution that integrates multiple cloud services and DevOps practices using Python. This could involve setting up an automated deployment pipeline, configuring cloud resources, monitoring and logging, and implementing a feedback loop for continuous improvement.
-  - Document the entire process, including code, configurations, and lessons learned.
-  - Present the project, highlighting key features, challenges, and solutions.
+- **Topics**: Defining Functions, Calling Functions, Parameters, Return Statement
+- **Exercises**:
+  1. Write a function to calculate the square of a number.
+  2. Create a function that takes a list of numbers and returns the sum of the numbers.
 
-This syllabus provides a thorough and practical approach to learning Python for cloud and DevOps, ensuring you gain hands-on experience and a deep understanding of the topics.
+#### **Day 11: More on Functions**
+
+- **Topics**: Lambda Functions, \*args, \*\*kwargs, Recursion
+- **Exercises**:
+  1. Write a lambda function to find the maximum of two numbers.
+  2. Create a recursive function to compute the Fibonacci sequence.
+
+#### **Day 12: Error Handling**
+
+- **Topics**: Try, Except, Finally, Raising Exceptions
+- **Exercises**:
+  1. Write a program that takes a number from the user and handles the exception if the input is not a number.
+  2. Create a program to handle file not found exceptions.
+
+#### **Day 13: Modules and Packages**
+
+- **Topics**: Importing Modules, Creating Modules, Python Standard Library
+- **Exercises**:
+  1. Write a program to import the math module and calculate the square root of a number.
+  2. Create a custom module and use it in a program.
+
+#### **Day 14: Review and Practice**
+
+- **Topics**: Review all topics covered in Week 2
+- **Exercises**:
+  1. Write a program that utilizes conditional statements, loops, and functions.
+  2. Complete any pending exercises from the week.
+
+### **Week 3: Advanced Python Concepts**
+
+#### **Day 15: File Handling**
+
+- **Topics**: Reading Files, Writing Files, Working with CSV Files
+- **Exercises**:
+  1. Write a program to read a text file and count the number of words.
+  2. Create a program that writes user input to a file.
+
+#### **Day 16: Object-Oriented Programming (OOP) - Part 1**
+
+- **Topics**: Classes and Objects, Constructors, Instance Variables
+- **Exercises**:
+  1. Create a class `Person` with attributes `name` and `age`. Create an object and display its attributes.
+  2. Write a program to implement a simple calculator using classes.
+
+#### **Day 17: Object-Oriented Programming (OOP) - Part 2**
+
+- **Topics**: Inheritance, Polymorphism, Encapsulation
+- **Exercises**:
+  1. Create a class `Animal` and extend it to a class `Dog`. Add a method `speak` in both classes.
+  2. Write a program that demonstrates method overriding.
+
+#### **Day 18: Python Libraries Overview**
+
+- **Topics**: Overview of Popular Libraries (NumPy, Pandas, Matplotlib)
+- **Exercises**:
+  1. Install NumPy and create a simple array.
+  2. Install Pandas and read a CSV file.
+
+#### **Day 19: Introduction to Data Structures**
+
+- **Topics**: Stacks, Queues, Linked Lists (using Python lists and deque)
+- **Exercises**:
+  1. Write a program to implement a stack using a list.
+  2. Create a queue using the `collections.deque` module.
+
+#### **Day 20: Introduction to Algorithms**
+
+- **Topics**: Basic Sorting Algorithms (Bubble Sort, Selection Sort), Searching Algorithms (Linear Search, Binary Search)
+- **Exercises**:
+  1. Implement Bubble Sort and Selection Sort.
+  2. Write a program to perform binary search on a sorted list.
+
+#### **Day 21: Review and Practice**
+
+- **Topics**: Review all topics covered in Week 3
+- **Exercises**:
+  1. Create a project that integrates file handling, OOP, and basic algorithms.
+  2. Complete any pending exercises from the week.
+
+### **Week 4: Advanced Topics and Final Project**
+
+#### **Day 22: Introduction to Web Scraping**
+
+- **Topics**: Web Scraping with BeautifulSoup and Requests
+- **Exercises**:
+  1. Write a program to scrape the headlines from a news website.
+  2. Scrape and save data from a table on a webpage to a CSV file.
+
+#### **Day 23: Introduction to Database Handling**
+
+- **Topics**: Working with SQLite, CRUD Operations
+- **Exercises**:
+  1. Write a program to create a SQLite database and a table.
+  2. Perform insert, update, delete, and select operations on the database.
+
+#### **Day 24: Introduction to GUI Programming**
+
+- **Topics**: GUI Programming with Tkinter
+- **Exercises**:
+  1. Create a simple calculator using Tkinter.
+  2. Develop a basic to-do list application with add and delete functionality.
+
+#### **Day 25: Introduction to APIs**
+
+- **Topics**: Understanding APIs, Making API Requests with Python
+- **Exercises**:
+  1. Write a program to fetch weather data from an API.
+  2. Create a program to send a request to a public API and display the response.
+
+#### **Day 26: Introduction to Unit Testing**
+
+- **Topics**: Writing Unit Tests with `unittest` Framework
+- **Exercises**:
+  1. Write unit tests for basic functions.
+  2. Create tests for a class that handles basic arithmetic operations.
+
+#### **Day 27: Final Project Planning**
+
+- **Topics**: Final Project Planning and Design
+- **Exercises**:
+  1. Plan a final project that integrates multiple concepts learned (e.g., a web scraper that stores data in a database and has a GUI).
+  2. Outline the requirements and design of the project.
+
+#### **Day 28: Final Project Implementation**
+
+- **Topics**: Final Project Development
+- **Exercises**:
+  1. Implement the final project.
+  2. Test and debug the project, ensuring all requirements are met.
 
 ---
 
